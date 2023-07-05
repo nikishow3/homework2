@@ -1,0 +1,13 @@
+/* для тега */
+h1{
+    font-famaly:
+    text-align:center;
+}
+/* для класса */
+.my_class{
+    background: darkgreen;
+}
+.my_class_text{
+    /* курсив */
+    font-style: oblique
+}

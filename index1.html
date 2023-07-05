@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- link - для подключения файлов и css-->
+    <link rel="stylesheet" href= "Style2.css">
+    <meta charset="UTF-8">
+    <title>index1</title>
+    <!-- подключение bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body class="my_class">
+        <h1>index</h1>
+    <p>
+        <label for="f5">многострочная текстовая форма</label>
+        <textarea minlenght="100" maxlength="300"
+        placeholder="Give Feedback here" id="f5">
+    </textarea>
+    </p>
+        <!-- a - для ссылок-->
+        <a href="index2.html">перейти на другую страницу</a>
+            <!-- form - элемент для заполнения и дальнейшей отправки -->
+            <form>
+        <p>
+                <!--label - тег для подписи для поля-->
+                <!-- input - поле для ввода разной инфы -->
+                <!-- for id - для связи label и input-->
+                <label for="f1">простое поле</label>
+                <input type="text" id="f1" class="form-control-lg">
+        </p>
+         <p>
+                <label for="f2">пароль</label>
+                <input type="password" id="f2" class="form-control-sm">
+
+                <div class="col-auto">
+    <span id="passwordHelpInline" class="form-text">
+      Должно быть 8-20 символов.
+    </span>
+  </div>
+                <div class="form-check form-switch">
+            <p>
+                <label for="f3">чек бокс</label>
+                <input type="checkbox"  role="switch" id="f3" class="form-check-input" checked>
+            </p>
+                </div>
+
+              <p>
+                <label for="f4">дата и время</label>
+                <input type="datetime-local" id="f4">
+            </p>
+       >
+
+                <!-- просто кнопка -->
+                <input type="button" value="send">
+                <!-- отправка -->
+                <input type="submit" value="send">
+            </form>
+
+<!-- используем классы bootstrap и свои -->
+<!-- разные классы прописываем через пробел-->
+<!--            <button  class="btn btn-primary my_class_text">Привет</button>-->
+<!--            <button type="button" class="btn btn-primary">Primary</button>-->
+<!--<button type="button" class="btn btn-secondary">Secondary</button>-->
+<!--<button type="button" class="btn btn-success">Success</button>-->
+<!--<button type="button" class="btn btn-danger">Danger</button>-->
+<!--<button type="button" class="btn btn-warning">Warning</button>-->
+<!--<button type="button" class="btn btn-info">Info</button>-->
+<!--<button type="button" class="btn btn-light">Light</button>-->
+<!--<button type="button" class="btn btn-dark">Dark</button>-->
+
+<!--<button type="button" class="btn btn-link">Link</button>-->
+
+</body>
+</html>
